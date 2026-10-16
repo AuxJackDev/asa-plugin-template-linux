@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeSharedSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Linux-Wine" ENABLED="true" CONFIG_NAME="Release" GENERATION_OPTIONS="-G Ninja -DCMAKE_TOOLCHAIN_FILE=cmake/msvc-wine.cmake">
+        <ADDITIONAL_GENERATION_ENVIRONMENT>
+          <envs>
+            <env name="WINEDEBUG" value="-all" />
+          </envs>
+        </ADDITIONAL_GENERATION_ENVIRONMENT>
+      </configuration>
+    </configurations>
+  </component>
+</project>

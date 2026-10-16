@@ -1,0 +1,6 @@
+[submodule "extern/AsaApi"]
+	path = extern/AsaApi
+	url = https://github.com/ArkServerApi/AsaApi
+[submodule "extern/fmt"]
+	path = extern/fmt
+	url = https://github.com/fmtlib/fmt
