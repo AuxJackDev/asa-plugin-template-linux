@@ -1,0 +1,17 @@
+{
+  "version": 4,
+  "configurePresets": [
+    {
+      "name": "linux",
+      "displayName": "Linux-Default",
+      "generator": "Ninja",
+      "environment": {
+        "MSVC_PATH": "$env{HOME}/msvc/bin/x64",
+        "WINEDEBUG": "-all"
+      },
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release"
+      }
+    }
+  ]
+}

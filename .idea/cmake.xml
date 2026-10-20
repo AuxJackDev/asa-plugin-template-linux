@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeSharedSettings">
     <configurations>
-      <configuration PROFILE_NAME="Linux-Wine" ENABLED="true" CONFIG_NAME="Release" GENERATION_OPTIONS="-G Ninja -DCMAKE_TOOLCHAIN_FILE=cmake/msvc-wine.cmake">
+      <configuration PROFILE_NAME="Linux-Wine" ENABLED="true" CONFIG_NAME="Release" GENERATION_OPTIONS="--preset &quot;linux&quot;" NO_GENERATOR="true">
         <ADDITIONAL_GENERATION_ENVIRONMENT>
           <envs>
             <env name="WINEDEBUG" value="-all" />
